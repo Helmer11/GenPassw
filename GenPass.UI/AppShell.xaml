@@ -6,9 +6,28 @@
     xmlns:local="clr-namespace:GenPass.UI"
     Title="GenPass.UI">
 
-    <ShellContent
+    <!--<ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage" />-->
 
+    <TabBar>
+        <ShellContent
+            Title="Inicio"
+            Icon="home.png"
+            ContentTemplate="{DataTemplate local:MainPage}" />
+
+        <ShellContent
+            Title="Buscar"
+            Icon="search.png"
+            ContentTemplate="{DataTemplate local:MainPage}" />
+
+        <ShellContent
+            Title="Perfil"
+            Icon="user.png"
+            ContentTemplate="{DataTemplate local:MainPage}" />
+    </TabBar>
+    
+    
+    
 </Shell>
