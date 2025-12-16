@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.10.35013.160
+VisualStudioVersion = 17.14.36202.13 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenPass", "GenPass\GenPass.csproj", "{15581914-1F1D-440A-A4FE-0C3A082F519C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenPass.UI", "GenPass.UI\GenPass.UI.csproj", "{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,17 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{15581914-1F1D-440A-A4FE-0C3A082F519C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15581914-1F1D-440A-A4FE-0C3A082F519C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15581914-1F1D-440A-A4FE-0C3A082F519C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{15581914-1F1D-440A-A4FE-0C3A082F519C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15581914-1F1D-440A-A4FE-0C3A082F519C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{15581914-1F1D-440A-A4FE-0C3A082F519C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D995E2B5-D9CA-40B8-8748-B4B99EC6597B}
+		SolutionGuid = {9A20F27C-825A-41B6-BD9B-6A263CDC62C8}
 	EndGlobalSection
 EndGlobal
