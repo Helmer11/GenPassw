@@ -6,39 +6,48 @@
     <Grid>
 
         <!-- Contenido principal -->
-        <ScrollView>
-            <VerticalStackLayout Padding="10">
+        <CollectionView ItemsSource="{Binding credenciales}">
+            <CollectionView.ItemTemplate>
 
-                <!-- Card -->
-                <Border
-                    Margin="10"
-                    Padding="15"
-                    BackgroundColor="White"
-                    Stroke="#E0E0E0"
-                    StrokeThickness="1"
-                    VerticalOptions="Start"
-                    HorizontalOptions="Fill">
+                <DataTemplate>
 
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="12" />
-                    </Border.StrokeShape>
+                <VerticalStackLayout Padding="10">
+                    <!-- Card -->
+                        <Border
+                                    Margin="10"
+                                    Padding="15"
+                                    BackgroundColor="White"
+                                    Stroke="#E0E0E0"
+                                    StrokeThickness="1"
+                                    VerticalOptions="Start"
+                                    HorizontalOptions="Fill">
 
-                    <VerticalStackLayout Spacing="8">
-                        <Label
-                            Text="Card moderno"
-                            FontSize="18"
-                            FontAttributes="Bold" />
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="12" />
+                            </Border.StrokeShape>
 
-                        <Label
-                            Text="Contenido del card con Border."
-                            FontSize="14"
-                            TextColor="Gray" />
-                    </VerticalStackLayout>
+                            <VerticalStackLayout Spacing="8">
+                                <Label
+                                        Text="{Binding NameSite}"
+                                        FontSize="18"
+                                        FontAttributes="Bold" />    
 
-                </Border>
+                                <Label
+                                    Text="{Binding UserName}"
+                                    FontSize="14"
+                                    TextColor="Gray" />
+                            </VerticalStackLayout>
 
-            </VerticalStackLayout>
-        </ScrollView>
+                        </Border>
+
+                </VerticalStackLayout>
+
+                </DataTemplate>
+
+
+                </CollectionView.ItemTemplate>
+
+        </CollectionView>
 
         <!-- Botón flotante -->
         <Button

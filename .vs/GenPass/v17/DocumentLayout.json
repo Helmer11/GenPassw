@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\SourceProyects\\ProjectsMovil\\GenPass\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}|GenPass.UI\\GenPass.UI.csproj|c:\\sourceproyects\\projectsmovil\\genpass\\genpass.ui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}|GenPass.UI\\GenPass.UI.csproj|solutionrelative:genpass.ui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}|GenPass.UI\\GenPass.UI.csproj|c:\\sourceproyects\\projectsmovil\\genpass\\genpass.ui\\services\\credencialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}|GenPass.UI\\GenPass.UI.csproj|solutionrelative:genpass.ui\\services\\credencialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}|GenPass.UI\\GenPass.UI.csproj|c:\\sourceproyects\\projectsmovil\\genpass\\genpass.ui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}|GenPass.UI\\GenPass.UI.csproj|solutionrelative:genpass.ui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}|GenPass.UI\\GenPass.UI.csproj|c:\\sourceproyects\\projectsmovil\\genpass\\genpass.ui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}|GenPass.UI\\GenPass.UI.csproj|solutionrelative:genpass.ui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}|GenPass.UI\\GenPass.UI.csproj|c:\\sourceproyects\\projectsmovil\\genpass\\genpass.ui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{35485F73-2DCA-4040-A4B8-C1CD7C44CD0A}|GenPass.UI\\GenPass.UI.csproj|solutionrelative:genpass.ui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CredencialService.cs",
+              "DocumentMoniker": "C:\\SourceProyects\\ProjectsMovil\\GenPass\\GenPass.UI\\Services\\CredencialService.cs",
+              "RelativeDocumentMoniker": "GenPass.UI\\Services\\CredencialService.cs",
+              "ToolTip": "C:\\SourceProyects\\ProjectsMovil\\GenPass\\GenPass.UI\\Services\\CredencialService.cs*",
+              "RelativeToolTip": "GenPass.UI\\Services\\CredencialService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T04:29:53.967Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -43,25 +60,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\SourceProyects\\ProjectsMovil\\GenPass\\GenPass.UI\\AppShell.xaml",
-              "RelativeDocumentMoniker": "GenPass.UI\\AppShell.xaml",
-              "ToolTip": "C:\\SourceProyects\\ProjectsMovil\\GenPass\\GenPass.UI\\AppShell.xaml",
-              "RelativeToolTip": "GenPass.UI\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T05:14:52.626Z",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\SourceProyects\\ProjectsMovil\\GenPass\\GenPass.UI\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "GenPass.UI\\MainPage.xaml.cs",
+              "ToolTip": "C:\\SourceProyects\\ProjectsMovil\\GenPass\\GenPass.UI\\MainPage.xaml.cs",
+              "RelativeToolTip": "GenPass.UI\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T05:28:16.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\SourceProyects\\ProjectsMovil\\GenPass\\GenPass.UI\\MainPage.xaml",
               "RelativeDocumentMoniker": "GenPass.UI\\MainPage.xaml",
               "ToolTip": "C:\\SourceProyects\\ProjectsMovil\\GenPass\\GenPass.UI\\MainPage.xaml",
               "RelativeToolTip": "GenPass.UI\\MainPage.xaml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-16T05:13:40.879Z",
               "EditorCaption": ""

@@ -1,4 +1,8 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using GenPass.UI.Services;
+using GenPass.UI.Services.Interfaces;
+using GenPass.UI.ViewModels;
+using Microsoft.Extensions;
+using Microsoft.Extensions.Http;
 
 namespace GenPass.UI
 {
@@ -7,6 +11,12 @@ namespace GenPass.UI
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
+
+            builder.Services.AddHttpClient<ICredencialService, CredencialService>();
+            builder.Services.AddTransient<CredencialViewModel>();
+
+
+
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
@@ -15,9 +25,6 @@ namespace GenPass.UI
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
 
             return builder.Build();
         }
